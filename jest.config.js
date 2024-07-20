@@ -23,24 +23,17 @@ const config = {
   // An array of glob patterns indicating a set of files for which coverage information should be collected
   // collectCoverageFrom: undefined,
 
-  // The directory where Jest should output its coverage files
-  // coverageDirectory: undefined,
+  // The directory where Jest should output its  files
+  coverageDirectory: "coverage",
 
   // An array of regexp pattern strings used to skip coverage collection
-  // coveragePathIgnorePatterns: [
-  //   "\\\\node_modules\\\\"
-  // ],
+  coveragePathIgnorePatterns: ["\\\\node_modules\\\\"],
 
   // Indicates which provider should be used to instrument code for coverage
-  coverageProvider: 'v8',
+  coverageProvider: "v8",
 
   // A list of reporter names that Jest uses when writing coverage reports
-  // coverageReporters: [
-  //   "json",
-  //   "text",
-  //   "lcov",
-  //   "clover"
-  // ],
+  coverageReporters: ["json", "text", "lcov", "clover"],
 
   // An object that configures minimum threshold enforcement for coverage results
   // coverageThreshold: undefined,
@@ -145,24 +138,19 @@ const config = {
   // snapshotSerializers: [],
 
   // The test environment that will be used for testing
-  // testEnvironment: "jest-environment-node",
+  testEnvironment: "jest-environment-node",
 
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
 
   // Adds a location field to test results
-  // testLocationInResults: false,
+  testLocationInResults: true,
 
   // The glob patterns Jest uses to detect test files
-  // testMatch: [
-  //   "**/__tests__/**/*.[jt]s?(x)",
-  //   "**/?(*.)+(spec|test).[tj]s?(x)"
-  // ],
+  testMatch: ["**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[tj]s?(x)"],
 
   // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
-  // testPathIgnorePatterns: [
-  //   "\\\\node_modules\\\\"
-  // ],
+  testPathIgnorePatterns: ["\\\\node_modules\\\\"],
 
   // The regexp pattern or array of patterns that Jest uses to detect test files
   // testRegex: [],

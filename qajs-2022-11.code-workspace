@@ -7,7 +7,7 @@
 	"settings": {},
 	"extensions": {
 		"recommendations": [
-			"dbaeumer.vscode-eslint", 
+			"dbaeumer.vscode-eslint",
 			"esbenp.prettier-vscode",
 			"EditorConfig.EditorConfig",
 			"Orta.vscode-jest",
